@@ -45,3 +45,38 @@ Custom Scrollbars
     color: #fff;
     background: #e45000;
 }
+
+/* custom */
+
+.underline-10px::after {
+    content: '';
+    display: block;
+    width: 22px;
+    height: 2px;
+    /* Độ dày của gạch chân */
+    background: currentColor;
+    margin: 0 auto;
+    margin-top: 0px;
+    /* Khoảng cách giữa input và gạch chân */
+}
+
+/* slick slide */
+.slick-dots {
+    border-radius: 20px;
+    border: 1px solid;
+    position: relative !important;
+    bottom: -25px;
+    display: block;
+    width: 100%;
+    padding: 8px !important;
+    margin: 0;
+    list-style: none;
+    text-align: center;
+    display: flex;
+    height: 85px !important;
+}
+
+.slick-dots li {
+    width: 120px !important;
+    height: 72p !important;
+}
